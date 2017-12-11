@@ -1,4 +1,4 @@
-# decidim-efb
+# decidim-angers
 
 Citizen Participation and Open Government application.
 
