@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/OpenSourcePolitics/decidim.git
-  revision: 8074bcd82668ebcfcbcd24b3214e8b6e5dcb2fc4
+  revision: 25594015eb4c82d22aa1187f13aab197da84aae5
+  branch: f-angers-new-proposal-states
   specs:
     decidim (0.8.3)
       decidim-accountability (= 0.8.3)
@@ -597,7 +598,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 2.4.2p198
 
 BUNDLED WITH
    1.16.1
