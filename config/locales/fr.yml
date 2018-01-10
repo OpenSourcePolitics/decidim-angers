@@ -1,5 +1,0 @@
-fr:
-  decidim:
-    authorization_handlers:
-      example_authorization_handler:
-        name: Exemple d'authorisation
