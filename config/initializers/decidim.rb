@@ -5,8 +5,8 @@ Decidim.configure do |config|
   config.mailer_sender = "mako@osp.cat"
 
   # Change these lines to set your preferred locales
-  config.default_locale = :fr
-  config.available_locales = [:fr]
+  config.default_locale = :en
+  config.available_locales = [:en, :fr, :ca, :es]
 
   # Geocoder configuration
   # config.geocoder = {
