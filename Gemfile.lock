@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/OpenSourcePolitics/decidim.git
-  revision: a4517313c1c777f3301cc8de4784ef278c995a6c
+  revision: 92e2f002a63aacee02d77a74c7c3945f99dfd20d
   branch: f-angers-new-proposal-states
   specs:
     decidim (0.8.3)
