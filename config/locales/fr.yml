@@ -1,5 +1,18 @@
 fr:
   decidim:
+    menu:
+      processes: Processus en cours
     scopes:
       global: Toute la ville
-
+    application:
+      documents:
+        related_documents: Documents à consulter
+    participatory_processes:
+      pages:
+        home:
+          highlighted_processes:
+            active_processes: Processus en cours
+  pages:
+    home:
+      extended:
+        how_to_participate: Comment puis-je participer ?
