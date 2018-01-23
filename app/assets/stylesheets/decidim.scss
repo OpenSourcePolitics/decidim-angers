@@ -41,6 +41,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, span {
   }
 }
 
+.process-header__main{
+  &::after{
+    background-color: rgba($black, .1);
+  }
+}
+
 /* Home page */
 .footer__subhero {
 display: none;
