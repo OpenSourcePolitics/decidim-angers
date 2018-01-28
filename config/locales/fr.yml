@@ -28,3 +28,4 @@ fr:
     attributes:
       proposal:
         has_address: Renseigner une adresse
+        address: Adresse

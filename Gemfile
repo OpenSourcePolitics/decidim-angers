@@ -9,7 +9,7 @@ gem "decidim", git: "https://github.com/OpenSourcePolitics/decidim.git", branch:
 gem "decidim-export", git: "https://github.com/OpenSourcePolitics/decidim-user-export.git"
 
 # Uncomment the following line if you want to use decidim-assemblies plugin
-# gem "decidim-assemblies", git: "https://github.com/OpenSourcePolitics/decidim.git"
+gem "decidim-assemblies", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "f-angers-new-proposal-states"
 
 gem "puma", "~> 3.0"
 gem "uglifier", ">= 1.3.0"
@@ -30,15 +30,13 @@ group :development do
   gem "web-console"
 end
 
-
-
 group :production do
   gem 'passenger'
   gem 'fog-aws'
   gem 'dalli'
   gem 'sendgrid-ruby'
   gem 'newrelic_rpm'
-  gem 'lograge'
+  gem 'lograge', "~>0.7.1"
   gem 'sentry-raven'
   gem 'sidekiq'
 end
