@@ -21,7 +21,7 @@ $google: #dd4b39;
 
 @import "fontface";
 // TODO : PR on decidim-core/app/assets/stylesheets/decidim/utils/_settings.scss to add !default on this variable.
-$body-font-family: 'Futura','Source Sans Pro', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Source Sans Pro', Helvetica, Roboto, Arial, sans-serif;
 
 body, h1, h2, h3, h4, h5, h6, p, a, span {
   font-family: $body-font-family;
